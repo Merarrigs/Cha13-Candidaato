@@ -1,8 +1,8 @@
 // TODO: Create an interface for the Candidate objects returned by the API
 interface Candidate {
-    logo_url: string;
-    file_url: string;
-    name: string;
+    avatar_url: string;
+    html_url: string;
+    login: string;
     location: string;
     email: string;
     company: string;

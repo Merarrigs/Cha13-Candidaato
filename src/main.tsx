@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App.tsx';
 import CandidateSearch from './pages/CandidateSearch.tsx';
 import SavedCandidates from './pages/SavedCandidates.tsx';
@@ -23,7 +23,8 @@ const router = createBrowserRouter([
       },
     ],
   },
-]);
+], { future: { v7_relativeSplatPath: true, v7_startTransition: true } });
+
 
 const rootElement = document.getElementById('root');
 if (rootElement) {
