@@ -12,7 +12,7 @@ function WorkFiles(props: any) {
                         <span>{props.props.html_url}</span><br />
                         <span>{props.props.bio === undefined ? `Long walks on the beach` : `${props.props.bio}`}</span><br />
                         <span>{props.props.company === undefined ? `Github` : `${props.props.company}`}</span><br />
-                        <span>{props.props.location === undefined ? `Narnia` : `${props.props.location}`}</span>
+                        <span>{props.props.location === undefined ? `Narnia, CA` : `${props.props.location}`}</span>
                     </Card.Text>
                 </Card.Body>
             </Card>
