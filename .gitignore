@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-environment/.env 
-\environment
+environment
+*.env
+\environment/.env
