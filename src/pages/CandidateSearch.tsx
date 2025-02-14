@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect} from 'react';
 import { searchGithub } from '../api/API';
 import { Candidates } from '../interfaces/CandidateInterface';
 import WorkFiles from '../components/WorkFile';
